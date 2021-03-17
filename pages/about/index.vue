@@ -1,18 +1,15 @@
 <template>
   <div class="container">
     <div>
-      <Logo />
       <h1 class="title">
-        javatour
+        about
       </h1>
       <div class="links">
         <n-link to="/" rel="noopener noreferrer" class="button--grey">home</n-link>
-        <n-link to="/gallery" rel="noopener noreferrer" class="button--grey">gallery</n-link>
-        <n-link to="/about" rel="noopener noreferrer" class="button--grey">about</n-link>
-        <n-link to="/contact" rel="noopener noreferrer" class="button--grey">contact</n-link>
       </div>
     </div>
   </div>
+
 </template>
 
 <script lang="ts">
